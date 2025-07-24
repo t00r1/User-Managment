@@ -56,6 +56,7 @@ src/
 - **Поля**
 `fullName` -> String
 `email` -> String
+`dayOfBirth` -> Date
 `password` -> String (хеш)
 `role` -> String (user/admin)
 `isActive` -> Boolean 
