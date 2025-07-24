@@ -36,7 +36,7 @@ exports.registration = async (req, res) => {
 
     } catch (err) {
         console.error(`[-] Ошибка регистрации: ${err.message}`)
-        res.status(500).json({ message: 'Ошибка сервера при регистрации' })
+        res.status(400).json({ message: 'Ошибка при регистрации' })
     }
 
 }
@@ -67,7 +67,7 @@ exports.authorization = async (req, res) => {
 
     } catch (err) {
         console.error(`[-] Ошибка при авторизации: ${err.message}`)
-        res.status(500).json({ message: 'Ошибка сервера при авторизации' })
+        res.status(400).json({ message: 'Ошибка при авторизации' })
     }
 
 }
