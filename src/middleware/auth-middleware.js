@@ -1,9 +1,6 @@
 // - Импорт модулей
 const jwt = require('jsonwebtoken')
 
-// - Модели
-const User = require('../models/User')
-
 exports.loggedIn = function (roles) {
     return function (req, res, next) {
 
