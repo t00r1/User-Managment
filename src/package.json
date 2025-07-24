@@ -5,7 +5,6 @@
   "license": "ISC",
   "author": "Denis Kuchinsky (t00r1)",
   "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "start": "node app.js"
   },
